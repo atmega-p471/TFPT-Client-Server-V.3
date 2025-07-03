@@ -160,7 +160,7 @@ void receive_file(SOCKET sock, const string& filename, sockaddr_in server_addr) 
 
 int main(int argc, char* argv[]) {
     if (argc < 4) {
-        cout << "Usage: " << argv[0] << " <server_ip> <get|put> <file1> [file2] ..." << endl;
+        cout << "How to use: " << argv[0] << " server_ip / get|put / files(file1, file2 ...)" << endl;
         return 1;
     }
 
